@@ -1,0 +1,56 @@
+body{
+    margin:0 ;
+    padding:0 ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./Assets/image/gabriele-garanzelli-PzO_CitnJdI-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+header {
+
+  background-color: rgba(0, 0, 0, 0.911);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: auto !important;
+}
+header nav ul {
+  display: flex;
+  /* justify-content: space-between; */
+    list-style: none;
+    margin-top: 1.5em;
+}
+header nav ul li{
+    margin-left: 1em;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #F0C210 ;
+}
+
+header img{
+    width: 78px;
+    height: 78px;
+    cursor: pointer;
+}
+header button{
+    height: 3em;
+    margin-top: 1em;
+    background-color: #F0C210;
+    color: white;
+    border: none;
+    border-radius: .5em;
+    cursor: pointer;
+}
+header button:hover{
+    background-color: white;
+    color: #F0C210;
+    box-shadow: #F0C210 ;
+    box-shadow: 3px 3px 9px 1px #F0C210;
+}
