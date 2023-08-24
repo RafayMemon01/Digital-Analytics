@@ -1,56 +1,43 @@
-body{
-    margin:0 ;
-    padding:0 ;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(./Assets/image/gabriele-garanzelli-PzO_CitnJdI-unsplash.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
 }
-header {
-
-  background-color: rgba(0, 0, 0, 0.911);
-  color: white;
-  display: flex;
-  justify-content: space-around;
-  padding: auto !important;
+.brand{
+    /* display: flent: space-around; */
+    padding: 1em;
+    
 }
-header nav ul {
-  display: flex;
-  /* justify-content: space-between; */
-    list-style: none;
-    margin-top: 1.5em;
+.brand img{
+    width: 50px;
+    border-radius: 1em;
+    cursor: pointer;
 }
-header nav ul li{
-    margin-left: 1em;
-}
-header nav ul li a{
-    text-decoration: none;
-    color: white;
+.brandname{
     font-size: large;
+    font-weight: bold;
 }
-header nav ul li a:hover{
-    text-decoration: underline;
-    text-decoration-color: #F0C210 ;
+.navigation{
+    display: flex;
+    list-style-type: none;
 }
-
-header img{
-    width: 78px;
-    height: 78px;
+.navigation li{
+    margin: 1em;
     cursor: pointer;
-}
-header button{
-    height: 3em;
-    margin-top: 1em;
     background-color: #F0C210;
-    color: white;
-    border: none;
-    border-radius: .5em;
-    cursor: pointer;
+    padding: 0.3em;
+    border-radius:.5em ;
 }
-header button:hover{
-    background-color: white;
-    color: #F0C210;
-    box-shadow: #F0C210 ;
-    box-shadow: 3px 3px 9px 1px #F0C210;
+.navigation li:hover{
+    margin-left: 1em;
+    cursor: pointer;
+    background-color: #fdcb00;
+    padding: 0.3em;
+    border-radius:.5em ;
+}
+.active{
+    background-color: #caa203;
+}
+.navigation li a{
+    text-decoration: none;
+    color: black;
 }
